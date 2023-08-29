@@ -1,13 +1,11 @@
 .navcontainer {
     height: 5rem;
     width: 100vw;
-
-
 }
 
 .navbar {
     margin: 0 auto;
-    max-width: 85rem;
+    max-width: 90rem;
     padding: 2rem;
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,49 @@
+#home {
+    height: calc(100vh - 5rem);
+
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:calc(100vh - 10rem);
+    width: 100vw;
+
+}
+
+.hello {
+    font-size: 1.75rem;
+}
+
+.main-content {
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.name {
+    color: yellow;
+}
+
+#home p{
+font-size: 1.4rem;
+}
+
+#home img {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    object-fit: cover;
+    top:0;
+    right: 10rem;
+}
+
+@media  screen and (max-width:414px) {
+
+    #home img{
+        border: 2px solid red;
+        right: -10vh;
+    }
+    
+}

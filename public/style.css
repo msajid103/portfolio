@@ -5,14 +5,29 @@
     text-decoration: none;
     background: transparent;
     font-family: 'Poppins',sans-serif;
+
     
 }
 body {
     background:rgb(30,30,30);
     color: white; 
-
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .container{
     margin: 0 auto;
-    max-width: 75rem;
+    padding: 2rem;   
+    max-width: 90rem;
+}
+
+.btn{
+    background: white;
+    border-radius: 1rem;
+    padding: 0.8rem 2.2rem;
+    margin: 1rem 0;
+    border: none;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    color: black;
+    cursor: pointer;
 }
