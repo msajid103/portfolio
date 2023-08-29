@@ -42,7 +42,6 @@ font-size: 1.4rem;
 @media  screen and (max-width:414px) {
 
     #home img{
-        border: 2px solid red;
         right: -10vh;
     }
     

@@ -1,0 +1,47 @@
+#skill{
+    margin: 3rem auto;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+
+}
+#skill h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#skill p.mainpara{
+    font-size: 1.2rem;    
+    max-width: 51rem;
+    padding:0  1.2rem 1rem;
+}
+
+.skill-bar{
+    display: flex;
+    padding: 1rem .5rem;
+    gap: 2rem;  
+    border-radius: 1rem;  
+    background: rgb(50, 50,50);
+    margin: 1rem ;
+    text-align: start;
+}
+
+.skill-bar img{
+    width: 4rem;
+}
+
+
+@media screen and (max-width:500px) {
+    .skill-bar{
+        flex-direction: column;
+       text-align: center;
+       align-items: center;
+    }
+    #skill p.mainpara{
+        padding: 0;
+    }
+
+}
