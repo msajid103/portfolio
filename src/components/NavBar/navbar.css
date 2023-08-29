@@ -1,40 +1,50 @@
-.navcontainer{
+.navcontainer {
     height: 5rem;
-    width: 100vw; 
+    width: 100vw;
 
 
 }
-.navbar {    
+
+.navbar {
     margin: 0 auto;
     max-width: 85rem;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: sticky;
     z-index: 3;
 
 }
 
-.navbar .logo{
+.navbar .logo {
     object-fit: cover;
     width: 3rem;
 }
-.menu-items .item{
+
+.menu-items .item {
     margin: 1rem;
     cursor: pointer;
     font-size: 1.6rem;
 
 }
 
-.menu-btn{
-    background:white;
+.menu-btn {
+    background: white;
     display: flex;
     border: none;
     border-radius: 1rem;
     padding: 0.5rem 1rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: black;
+}
 
+.menu-btn img{
+    height: 1.8rem;
+    margin-right: 1rem;
+}
+
+.menu-btn span{
+    font-size: 1rem;
 }

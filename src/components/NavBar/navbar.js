@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link className='item'>Clients</Link>
         </div>
         <button className='menu-btn'>
-            <img src={contactImg} className='contactImg'/>Contact Me </button>
+            <img src={contactImg} className='contactImg'/><span>Contact Me </span></button>
     </nav>
     </div>
   )
