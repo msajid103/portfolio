@@ -4,7 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-    font-family: 'Poppins',sans-serif;    
+    font-family: 'Poppins',sans-serif; 
+    /* scroll-behavior: smooth;    */
 }
 body {
     background:rgb(30,30,30);

@@ -36,6 +36,11 @@
     font-size: 1.6rem;
 
 }
+.menu-items .item:hover{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom:.3rem ;
+} 
 
 .menu-btn {
     background: white;
@@ -46,6 +51,7 @@
     align-items: center;
     justify-content: center;
     color: black;
+    cursor: pointer;
 }
 
 .menu-btn img{
@@ -55,4 +61,10 @@
 
 .menu-btn span{
     font-size: 1rem;
+}
+
+.active{
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom:.3rem ;
 }
